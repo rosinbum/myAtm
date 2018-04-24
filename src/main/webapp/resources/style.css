@@ -1,0 +1,74 @@
+body {
+	background-color: #9F80AC;
+}
+.header {
+	margin-top: 50px;
+	margin-left:100px;
+	height: 150px;
+	border-radius: 10px;
+	width: 460px;
+	background: url("images/atm_sign.png") center #126CAE no-repeat;
+}
+.main {
+	border-top: #BEBEBE 5px solid;
+	height: 400px;
+	width: 420px;
+	margin-left: 120px;
+	background-color: #F1F0E7;
+}
+.ccrow {
+	background: url('images/creditcard_sprite.png') no-repeat;
+	height: 20px;
+	margin-left: 90px;
+}
+.display {
+	margin: 15px;
+	background-color: #7EB4D5;
+	boarder:gray solid 3ps;
+	float: left;
+}
+.display h3 {
+	margin: 30px;
+	text-align: center;
+}
+.button {
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height:20px;
+	width:30px;
+	background-color: gray;
+	border-bottom: black;
+	border-radius: 3px;	
+}
+.buttons {
+	margin-top: 60px;
+}
+.left-buttons {
+	float: left;
+}
+.right-buttons {
+	float:left;
+}
+.labels {
+	margin: 15px;
+	float:left;
+}
+.labels p {
+	margin: 5px;
+}
+.right-labels {
+	text-align: right;
+	margin-left: 70px;
+}
+.model {
+	margin: 5px;
+	padding: 5px;
+	border-radis: 5px;
+	display:none;
+	background: white;
+}
+.error {
+	display:none;
+	color: red;
+}
